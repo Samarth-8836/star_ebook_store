@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "prompt",
  "creation": "2025-11-28 01:10:01.122604",
@@ -73,9 +74,11 @@
   }
  ],
  "grid_page_length": 50,
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "links": [],
- "modified": "2025-11-28 01:27:43.790306",
+ "modified": "2025-11-28 01:29:41.393755",
  "modified_by": "Administrator",
  "module": "Star Ebook Store",
  "name": "ebook",
