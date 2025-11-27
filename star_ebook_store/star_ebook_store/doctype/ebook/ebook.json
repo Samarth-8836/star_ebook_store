@@ -14,7 +14,8 @@
   "description",
   "table_of_contents",
   "route",
-  "is_published"
+  "is_published",
+  "author"
  ],
  "fields": [
   {
@@ -63,12 +64,18 @@
    "fieldname": "is_published",
    "fieldtype": "Check",
    "label": "Is Published"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Link",
+   "label": "Author",
+   "options": "Author"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-28 01:17:05.016154",
+ "modified": "2025-11-28 01:27:43.790306",
  "modified_by": "Administrator",
  "module": "Star Ebook Store",
  "name": "ebook",
