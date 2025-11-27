@@ -5,18 +5,30 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_frfo"
+  "section_break_frfo",
+  "full_name",
+  "bio"
  ],
  "fields": [
   {
    "fieldname": "section_break_frfo",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Markdown Editor",
+   "label": "Bio"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-28 01:20:22.501210",
+ "modified": "2025-11-28 01:25:17.011132",
  "modified_by": "Administrator",
  "module": "Star Ebook Store",
  "name": "Author",
